@@ -11,7 +11,7 @@
 
  4. The motive behind this setup is to get transport layer logs at the application layer and then observe network parameters like congestion window, etc.
 
-![Alt text](setup)
+![Alt text](https://github.com/Shivansh20128/Client-Server-Setup/blob/7791c4c565b21b03a2889996daf7c692a49fe648/setup.png)
 # Important links
 
 Modified Vegvisir link: https://github.com/Shivansh20128/vegvisir
