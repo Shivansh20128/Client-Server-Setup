@@ -11,6 +11,12 @@
 
  4. The motive behind this setup is to get transport layer logs at the application layer and then observe network parameters like congestion window, etc.
 
+# Important links
+
+Modified Vegvisir link: https://github.com/Shivansh20128/vegvisir
+
+Modified Cross-layer-metrics-repo: https://github.com/Shivansh20128/cross-that-boundary-mmsys23-nossdav
+
  
  # Using Docker Containers
 
@@ -39,3 +45,5 @@ Then I thought that maybe the OS on the two hosts should be the same. So I tried
 So then I thought that since my laptop is in a separate network, it might be causing some issues. So I tried connecting two ubuntu machines ,  both inside college through ssh. This time I was able to connect them. The machines I am talking about are xeon and ryzen02, and both of these machines belong to the Professor, and are highly used by students. So I thought of doing a similar thing with our machine, having IP 192.168.1.152. But for some reason, I was unable to ssh it.
 
 Apart from this, I also thought of trying the same thing between two VMs running on the same host. So I made two Ubuntu20 VMs on my laptop and ran containers on each of them. And I was able to connect them. But I am not sure if this fits our usecase.
+
+
