@@ -47,4 +47,6 @@ So then I thought that since my laptop is in a separate network, it might be cau
 
 Apart from this, I also thought of trying the same thing between two VMs running on the same host. So I made two Ubuntu20 VMs on my laptop and ran containers on each of them. And I was able to connect them. But I am not sure if this fits our usecase.
 
-
+UPDATE:
+I got two Ubuntu machines, both inside the lab. They share the same LAN network. 
+I was able to establish a connection between them. So now, I am done with the first step, which was to connect containers on two hosts. Now, I have to use the three containers and establish a connection between them, where the server and the shaper will be on one host, and the client will be on a separate host.
