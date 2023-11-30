@@ -51,4 +51,7 @@ UPDATE:
 I got two Ubuntu machines, both inside the lab. They share the same LAN network. 
 I was able to establish a connection between them. So now, I am done with the first step, which was to connect containers on two hosts. Now, I have to use the three containers and establish a connection between them, where the server and the shaper will be on one host, and the client will be on a separate host.
 
-Today I was going through the repo and code, and I think I will also need to make some changes to the vegvisir code.
+I was going through the repo and code, and I think I will also need to make some changes to the vegvisir code.
+
+For the next steps, see the file "Next-steps.md"
+
