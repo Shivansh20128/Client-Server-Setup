@@ -53,5 +53,5 @@ I was able to establish a connection between them. So now, I am done with the fi
 
 I was going through the repo and code, and I think I will also need to make some changes to the vegvisir code.
 
-
+For the next steps, see the file "Next-steps.md"
 
