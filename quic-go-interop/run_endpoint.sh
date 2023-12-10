@@ -17,3 +17,4 @@ else
     QUIC_GO_LOG_LEVEL=debug go run server/main.go "$@"
 fi
 
+echo "done?"

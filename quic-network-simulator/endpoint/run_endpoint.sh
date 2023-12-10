@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set up the routing needed for the simulation.
-# /setup.sh
+/setup.sh
 
 
 
@@ -11,4 +11,4 @@ if [ "$ROLE" == "client" ]; then
 fi
 
 /bin/bash
-echo "hello im in a script"
+echo "run endpoint done in network simulator"

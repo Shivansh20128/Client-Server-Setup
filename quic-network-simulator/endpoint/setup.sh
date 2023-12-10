@@ -28,4 +28,4 @@ ip -d route del $UNNEEDED_ROUTE/64
 
 # create the /logs and the /logs/qlog directory
 mkdir -p /logs/qlog
-echo "mkdir done"
+echo "mkdir done and setup.sh done"
