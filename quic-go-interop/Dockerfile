@@ -20,4 +20,4 @@ RUN cd client && go build && cd ../server && go build
 COPY run_endpoint.sh .
 RUN chmod +x run_endpoint.sh
 
-#ENTRYPOINT [ "./run_endpoint.sh" ]
+ENTRYPOINT [ "./run_endpoint.sh" ]

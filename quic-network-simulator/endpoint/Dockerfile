@@ -11,4 +11,4 @@ RUN chmod +x run_endpoint.sh
 
 RUN wget https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh && chmod +x wait-for-it.sh
 
-ENTRYPOINT [ "/run_endpoint.sh" ]
+# ENTRYPOINT [ "/run_endpoint.sh" ]

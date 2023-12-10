@@ -13,5 +13,7 @@ if [ "$ROLE" == "client" ]; then
     QUIC_GO_LOG_LEVEL=debug go run client/main.go $CLIENT_PARAMS $REQUESTS
 else
     echo "Running QUIC server."
+    echo "server run endpoint end"
     QUIC_GO_LOG_LEVEL=debug go run server/main.go "$@"
 fi
+
